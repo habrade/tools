@@ -1,0 +1,9 @@
+CAPI=2:
+
+name: cri:gen:zeropage_rom_generator_wrapper
+
+generators:
+    zeropage_rom_generator_wrapper:
+        interpreter: bash
+        command: ./zeropage_rom_generator_wrapper.sh
+        description: Generator for zeropage ROM
